@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/code/input.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Manage landing Page</title>
+</head>
+<body class="font-sans">
+    <section class="m-0 p-0" id="bodySection">
+        
+        <!--Navbar  -->
+        <nav class="relative container p-3 mx-auto w-full lg:w-10/12">
+            <div class="flex justify-between items-center">
+                <!-- logo -->
+                <div class="p-2 h-full" id="logo">
+                    <img src="./img/logo.svg" alt="Manage">
+                </div>
+                <!-- navigation links -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="#pricing" class="hover:text-darkGrayishBlue font-semibold">Pricing</a>
+                    <a href="#product" class="hover:text-darkGrayishBlue font-semibold">Product</a>
+                    <a href="#about" class="hover:text-darkGrayishBlue font-semibold">About Us</a>
+                    <a href="#career" class="hover:text-darkGrayishBlue font-semibold">Careers</a>
+                    <a href="#community" class="hover:text-darkGrayishBlue font-semibold">Community</a>
+                </div>
+                <!-- get started button -->
+                <div class="">
+                    <a href="#getStarted" class="hidden md:flex rounded-full p-3 px-6 py-3 bg-brightRed  text-white hover:bg-brightRedLight">Get Started</a>
+                </div>
+                <!-- mobi navigation icon -->
+                <div class="w-3/12 flex justify-end" id="mobiNavbarToggle">
+                    <img src="/code/img/icon-hamburger.svg" class="" id="mobiNavOpen" alt="menu" style="margin-left: 50px;">
+                    <img src="/code/img/icon-close.svg" class="hidden" alt="Menu Close" id="mobiNavClose" style="margin-left: 50px;">
+                </div>
+            </div>
+        </nav>
+        <!-- mobi navbar -->
+        <div class="text-center p-6 w-11/12 mx-auto shadow-lg shadow-black absolute hidden" id="mobiNavbar">
+            <ul >
+                <li ><a href="#pricing" class="hover:text-darkGrayishBlue font-semibold">Pricing</a></li>
+                <li><a href="#product" class="hover:text-darkGrayishBlue font-semibold">Product</a></li>
+                <li><a href="#about" class="hover:text-darkGrayishBlue font-semibold">About Us</a></li>
+                <li><a href="#career" class="hover:text-darkGrayishBlue font-semibold">Careers</a></li>
+                <li><a href="#community" class="hover:text-darkGrayishBlue font-semibold">Community</a></li>
+            </ul>
+        </div>
+        <!-- hero section -->
+        <section id="hero">
+            <!-- flex-container -->
+            <div class="container flex p-3 justify-between flex-col-reverse md:flex-row items-center  mx-auto mt-3 md:mt-10 w-full lg:w-10/12">
+                <!-- left item -->
+                <div class="flex flex-col mt-20 md:mt-0 mb-32 space-y-12 md:w-5/12 lg:4/12"> 
+                    <h1 class="text-4xl text-center md:text-left font-bold w-full">
+                        Bring everyone together to buils better products
+                    </h1>
+                    <p class="text-darkGrayishBlue text-center md:text-left">
+                        Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                    </p>
+                    <a href="#getStarted" class="w-4/12 md:w-5/12 mx-auto md:mx-0 rounded-full p-3 px-6 py-3 bg-brightRed text-center text-white hover:bg-brightRedLight">Get Started</a>
+                </div>
+                <!-- right item -->
+                <div class="w-full md:w-5/12 lg:4/12">
+                    <img src="/code/img/illustration-intro.svg" alt="">
+                </div>
+                
+            </div>
+        </section>
+        <!-- about section -->
+        <section id="about">
+            <div class="container w-full lg:w-10/12 flex flex-col md:flex-row justify-between mx-auto">
+                <!-- left about -->
+                <div class="flex flex-col w-full md:w-6/12 lg:w-5/12">
+                    <h3 class="text-center md:text-left font-bold text-5xl">
+                        What's different about manage?
+                    </h3>
+                    <p class="text-center md:text-left text-darkGrayishBlue mt-12">
+                        Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for the modern digital product teams.
+                    </p>
+                </div>
+                <!-- right about -->
+                <div class="flex flex-col w-full md:w-6/12 lg:w-5/12 mt-20 md:mt-0">
+                    <div class="flex space-x-3">
+                        <div class="py-0  px-2 bg-brightRed rounded-full h-fit">01</div>
+                        <div>
+                            <h6 class="font-semibold">Track company-wide progress</h6>
+                            <p class="text-darkGrayishBlue mt-3 text-justify">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose Sight of the bigger picture again.</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-6 space-x-3">
+                        <div class="py-0  px-2 bg-brightRed rounded-full h-fit">02</div>
+                        <div class="">
+                            <h6 class="font-semibold">Advanced built-in reports</h6>
+                            <p class="text-darkGrayishBlue mt-3 text-justify">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-6 space-x-3">
+                        <div class="py-0  px-2 bg-brightRed rounded-full h-fit">03</div>
+                        <div class="">
+                            <h6 class="font-semibold">Everything you need in one place.</h6>
+                            <p class="text-darkGrayishBlue mt-3 text-justify">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+                        </div>
+                    </div>
+
+                
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h3 class="mt-20 text-center text-4xl font-bold">See what's our customers think.</h3>
+            <div class="container w-full md:w-10/12 flex flex-col md:flex-row justify-between mx-auto mt-10">
+                <div class="container w-full md:w-1/2 flex justify-around mx-auto transition-all ">
+                    <div class="w-5/12 flex flex-col items-center bg-brightRedSupLight rounded-lg transition-all">
+                        <div class="w-full" ><img class="rouded-full w-6/12 mx-auto -mt-12" src="/code/img/avatar-ali.png" alt="Customer 1"></div>
+                        <p class="text-darkGrayishBlue text-center mt-3 ">"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated"</p>
+                    </div>
+                    <div class="w-5/12 flex flex-col items-center bg-brightRedSupLight  transition-all">
+                        <div class="flex justify-around w-full " ><img class="rouded-full w-6/12 absolute top-0 left-50" src="/code/img/avatar-anisha.png" alt="Customer 1"></div>
+                        <p class="text-darkGrayishBlue text-center mt-3 ">"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated"</p>
+                    </div>
+                    
+                </div>
+                <div class="container w-full md:w-1/2 flex justify-around mx-auto mt-10 md:mt-0 transition-all">
+                    <div class="w-5/12 flex flex-col items-center bg-brightRedSupLight transition-all">
+                        <div class="flex justify-around w-full " ><img class="rouded-full w-6/12 absolute top-0 left-50" src="/code/img/avatar-richard.png" alt="Customer 1"></div>
+                        <p class="text-darkGrayishBlue text-center mt-3 ">"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated"</p>
+                    </div>
+                    <div class="w-5/12 -mt-6 flex flex-col items-center bg-brightRedSupLight transition-all">
+                        <div class="flex justify-around w-full " ><img class="rouded-full w-6/12 " src="/code/img/avatar-shanai.png" alt="Customer 1"></div>
+                        <p class="text-darkGrayishBlue text-center mt-3 ">"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-10/12 justify-around mt-10">
+                <a href="#getStarted" class="w-6 mx-auto md:mx-0 rounded-full p-3 px-6 py-3 bg-brightRed text-center text-white hover:bg-brightRedLight">Get Started</a>
+            </div>
+            
+            
+
+        </section>
+        <section id="lowerBanner" class="bg-brightRed mt-6 pt-16">
+            <div class="flex justify-between w-full md:w-11/12 mx-auto px-3" style="padding-top:30px; padding-bottom:30px;">
+                <h3 class="text-2xl font-bold text-white">Simplify How your team works today</h3>
+                <a href="#getStarted" class="rounded-full font-bold text-center p-2 px-3 bg-brightRedSupLight hover:bg-brightRedLight" style="color: hsl(12, 88%, 59%); background-color: white;">Get Started</a>
+            </div>
+        </section>
+        <footer  style="background-color: hsl(233, 12%, 13%); padding-top: 30px; padding-bottom: 30px;">
+            <div class="w-full flex flex-col md:flex-row">
+                <div class="flex flex-col md:flex-row w-full md:w-10/12 justify-between px-6">
+                    <div class="flex flex-col w-10/12 md:w-4/12 justify-around">
+                        <div class="flex justify-around mt-6">
+                            <img src="/code/img/logo-white.svg" alt="Manage">
+                        </div>
+                        <div class="container mx-auto flex justify-around mt-6 w-full md:mt-10">
+                            <a href="#"><img src="/code/img/icon-facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="/code/img/icon-youtube.svg" alt="youtube"></a>
+                            <a href="#"><img src="/code/img/icon-twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="/code/img/icon-instagram.svg" alt="pininterest"></a>
+                            <a href="#"><img src="/code/img/icon-pinterest.svg" alt="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mx-auto flex justify-around w-6/12 md:w-4/12 mt-6">
+                    <div class="text-center w-4/12">
+                        <ul>
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">Pricing</a></li>
+                            <li><a href="#" class="text-white">Product</a></li>
+                            <li><a href="#" class="text-white">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-center w-4/12">
+                        <ul>
+                            <li><a href="#" class="text-white">Careers</a></li>
+                            <li><a href="#" class="text-white">Community</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-around w-full text-center md:w-4/12 mt-6">
+                    <form>
+                        <input type="email" class="rounded-full p-2 px-3" placeholder="Stay updated">
+                        <button type="submit" class="rounded-full bg-brightRed p-2 px-3  text-white font-semibold hover:bg-brightRedLight">Go</button>
+                    </form>
+                    <p class="text-darkGrayishBlue mt-3 md:mt-10">Copytights@2022. All rights reserved.</p>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+
+
+
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
